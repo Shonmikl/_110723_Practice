@@ -1,7 +1,6 @@
 package org.example._2023_10_26.taski;
 
 import com.github.javafaker.Faker;
-
 import java.util.Random;
 
 public class Main {
@@ -17,13 +16,24 @@ public class Main {
         AdultPlayer a1 = new AdultPlayer(FAKER.name().name(), RANDOM.nextInt(75));
         AdultPlayer a2 = new AdultPlayer(FAKER.name().name(), RANDOM.nextInt(75));
 
-        Team pt1 = new Team(FAKER.team().name());
-        Team pt2 = new Team(FAKER.team().name());
+        Team<PupilPlayer> pt1 = new Team(FAKER.team().name());
+        Team<PupilPlayer> pt2 = new Team(FAKER.team().name());
 
-        Team st1 = new Team(FAKER.team().name());
-        Team st2 = new Team(FAKER.team().name());
+        Team<StudentPlayer> st1 = new Team(FAKER.team().name());
+        Team<StudentPlayer> st2 = new Team(FAKER.team().name());
 
-        Team at1 = new Team(FAKER.team().name());
-        Team at2 = new Team(FAKER.team().name());
+        Team<AdultPlayer> at1 = new Team(FAKER.team().name());
+        Team<AdultPlayer> at2 = new Team(FAKER.team().name());
+
+        pt1.addNewParticipant(p1);
+        pt2.addNewParticipant(p2);
+
+        st1.addNewParticipant(s1);
+        st2.addNewParticipant(s2);
+
+        at1.addNewParticipant(a1);
+        at2.addNewParticipant(a2);
+
+        pt1.play(pt2);
     }
 }
