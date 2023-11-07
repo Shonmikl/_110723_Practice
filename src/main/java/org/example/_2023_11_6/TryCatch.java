@@ -7,7 +7,7 @@ public class TryCatch {
         try (FileReader reader = new FileReader("111.txt")) {
             int ch;
             while ((ch = reader.read()) != -1) {
-                System.out.println((char) ch);
+                System.out.print((char) ch);
             }
         } catch (Exception e) {
             throw new NullPointerException();
