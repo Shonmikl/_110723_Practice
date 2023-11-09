@@ -31,8 +31,6 @@ public class IteratorExample {
                 break;
             }
         }
-
-
         System.out.println(isPalindrome);
     }
 }
