@@ -1,17 +1,30 @@
 package org.example._2023_11_28;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Function;
+
 public class LamHOME {
     public static void main(String[] args) {
        // System.out.println(square(num -> num * num));
 
         checkAndGet((t1, t2, t3) -> t1.length() + t2.length() + t3.length());
         checkAndGet((t1, t2, t3) -> (t1.length() + t2.length() + t3.length()) / 3);
+        square(num -> num * num);
+        square(num -> num * num * num);
+        square(num -> Math.sqrt(Math.abs(num)));
+        square(Math::sin);
+
 
         //todo
     //    checkAndGet();
 
 
     }
+
+//    public static Double pi(Function<Double, Double> function) {
+//
+//    }
 
     public static Integer minStringLength(String s1, String s2, String s3) {
         return 0;
