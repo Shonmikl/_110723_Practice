@@ -19,7 +19,7 @@ public class Lam1 {
         }
     }
 
-    public static void m(In in) {
+    public static synchronized void m(In in) {
         in.get("***!***");
     }
 }
