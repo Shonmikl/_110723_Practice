@@ -1,7 +1,6 @@
 package org.example._2023_12_7;
 
 import com.github.javafaker.Faker;
-import com.github.javafaker.Food;
 
 import java.util.Objects;
 import java.util.Random;
