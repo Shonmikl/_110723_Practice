@@ -14,8 +14,7 @@ public class DateUtils {
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
         return sdf.format(date);
     }
-    
-    // Дублирование кода создания SimpleDateFormat
+
     public static String formatDateTimeForDisplay(Date date) {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         return sdf.format(date);

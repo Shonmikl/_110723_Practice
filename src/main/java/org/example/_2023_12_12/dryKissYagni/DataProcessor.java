@@ -1,4 +1,4 @@
-package org.example._2023_12_12.dryKissYagni;//package PROF.dryKissYagni;
+//package PROF.dryKissYagni;
 //
 //import java.util.List;
 //

@@ -1,6 +1,5 @@
 //package PROF.dryKissYagni;
 //
-//// Нарушение YAGNI: Ненужный функционал
 //public class ShoppingCart {
 //    private List<Item> items;
 //
@@ -20,7 +19,6 @@
 //        // Применение скидки
 //    }
 //
-//    // Избыточный метод, который не используется
 //    public void checkout() {
 //        // Оформление заказа
 //    }

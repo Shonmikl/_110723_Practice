@@ -1,6 +1,6 @@
 package org.example._2023_12_12.dryKissYagni;
 
-// Нарушение KISS: Избыточная сложность
+
 public class ValidationUtils {
 //    public boolean isEmailValid(String email) {
 //        String emailRegex = "^[A-Za-z0-9+_.-]+@(?:[A-Za-z0-9-]+\\.)+[A-Za-z]{2,}$";
@@ -58,21 +58,3 @@ public class ValidationUtils {
         return true;
     }
 }
-
-// Исправлено:
-// Упростили методы для проверки email, номера телефона и пароля.
-//class ValidationUtils@ {
-//    public boolean isEmailValid(String email) {
-//        return email.contains("@");
-//    }
-//
-//    public boolean isPhoneNumberValid(String phoneNumber) {
-//        // Простая проверка на наличие цифр
-//        return phoneNumber.matches("\\d+");
-//    }
-//
-//    public boolean isPasswordValid(String password) {
-//        // Простая проверка на длину пароля
-//        return password.length() >= 8;
-//    }
-//}

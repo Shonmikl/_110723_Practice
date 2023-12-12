@@ -1,6 +1,6 @@
-package org.example._2023_12_12.dryKissYagni;//package PROF.dryKissYagni;
+//package PROF.dryKissYagni;
 //
-//// Нарушение SOLID: Нарушение принципа единственной ответственности
+
 //public class Order {
 //    private List<Item> items;
 //

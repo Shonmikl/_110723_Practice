@@ -1,6 +1,5 @@
 package org.example._2023_12_12.dryKissYagni;
 
-
 public class Product {
     private String name;
     private double price;

@@ -2,7 +2,6 @@ package org.example._2023_12_12.dryKissYagni;
 
 import java.util.List;
 
-// Нарушение KISS: Избыточная сложность
 public class MathUtils {
     public static int calculateSum(int[] numbers) {
         int sum = 0;
